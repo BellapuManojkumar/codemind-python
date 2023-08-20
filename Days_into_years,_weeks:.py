@@ -1,5 +1,5 @@
-d=int(input())
-y=d//365
-w=(d%365)//7
+days = int(input())
+y = (days//365)
+w = (days%365)//7
 print(f"{y}")
 print(f"{w}")
