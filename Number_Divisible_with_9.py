@@ -1,6 +1,5 @@
-i=int(input())
-if i%9==0:
-    print("True")
+x = int(input())
+if x%3==0:
+    print(True)
 else:
-    print("False")
-    
+    print(False)
