@@ -1,17 +1,17 @@
-a=input()
-if a=="V":
+x = input()
+if x=='V':
     print("Violet")
-elif a=="I":
+elif x=='I':
     print("Indigo")
-elif a=="B":
+elif x=='B':
     print("Blue")
-elif a=="G":
+elif x=='G':
     print("Green")
-elif a=="Y":
+elif x=='Y':
     print("Yellow")
-elif a=="O":
+elif x=='O':
     print("Orange")
-elif a=="R":
+elif x=='R':
     print("Red")
 else:
-    print("-1")
+    print(-1)
