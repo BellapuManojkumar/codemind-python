@@ -1,7 +1,8 @@
-a=int(input())
-b=int(input())
-if a>b:
-    print(a)
+x = int(input())
+y = int(input())
+if x>y:
+    print(x)
+elif y>x:
+    print(y)
 else:
-    print(b)
-    
+    print(-1)
